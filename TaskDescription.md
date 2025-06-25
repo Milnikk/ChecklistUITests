@@ -53,6 +53,7 @@ Xcode version: 16.4
 # LIST OF DISCOVERED ISSUES:
 - Login randomly fails with valid credentials.
 - Tapping on task may select the previous one instead.
+- Subtasks are not marked as completed after completing a parent task.
 - "Complete All" button doesn't toggle to "Cancel All" after all tasks are selected.
 - "Complete All" button only highlights tasks without checking their boxes.
 - "Sort by Name" button triggers task selection instead of sorting.
