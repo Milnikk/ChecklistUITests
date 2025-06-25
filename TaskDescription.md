@@ -26,31 +26,29 @@ Please reachout Oksana (otolstykh@readdle.com) if you have any questions.
 # TEST PLAN: 
 
 - Environment:
-Device: iPhone 16 Simulator
-iOS version: iOS 18.5
-Xcode version: 16.4 
+Device: iPhone 16 Simulator.
+iOS version: iOS 18.5.
+Xcode version: 16.4.
 
 - What parts of app will be tested:
-Login screen:  
-    input validation for email and password fields, error handling for invalid or empty values.
-Checklist screen: 
-    interaction with task checkboxes, functionality of “Complete All” and “Sort by Name” buttons, logout behaviour. 
+Login screen: input validation for email and password fields, error handling for invalid or empty values.
+Checklist screen: interaction with task checkboxes, functionality of “Complete All” and “Sort by Name” buttons, logout behaviour. 
 
 # LIST OF TEST CASES: 
 Login screen:
-    1. Login with valid email and password.
-    2. Login with empty email and empty password.
-    3. Login with empty email and valid password.
-    4. Login with valid email and empty password.
-    5. Login with invalid email format and valid password.
+1. Login with valid email and password.
+2. Login with empty email and empty password.
+3. Login with empty email and valid password.
+4. Login with valid email and empty password.
+5. Login with invalid email format and valid password.
     
 Checklist screen:
-    1. Verify that task changes state.
-    2. Verify that all subtasks are marked as completed after completing a parent task.
-    3. Verify that "Sort by Name" button sorts tasks alphabetically.
-    4. Verify that "Complete All" button marks all tasks as completed.
-    5. Verify log out from the app.
-    6. Verify that cancelling the logout return to checklist screen.
+1. Verify that task changes state.
+2. Verify that all subtasks are marked as completed after completing a parent task.
+3. Verify that "Sort by Name" button sorts tasks alphabetically.
+4. Verify that "Complete All" button marks all tasks as completed.
+5. Verify log out from the app.
+6. Verify that cancelling the logout return to checklist screen.
 
 # LIST OF DISCOVERED ISSUES:
 - Login randomly fails with valid credentials.
