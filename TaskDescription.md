@@ -25,24 +25,24 @@ Please reachout Oksana (otolstykh@readdle.com) if you have any questions.
 
 # TEST PLAN: 
 
-- Environment:
-Device: iPhone 16 Simulator.
-iOS version: iOS 18.5.
-Xcode version: 16.4.
+- **Environment:**  
+Device: iPhone 16 Simulator  
+iOS version: iOS 18.5  
+Xcode version: 16.4  
 
-- What parts of app will be tested:
-Login screen: input validation for email and password fields, error handling for invalid or empty values.
-Checklist screen: interaction with task checkboxes, functionality of “Complete All” and “Sort by Name” buttons, logout behaviour. 
+- **What parts of app will be tested:**  
+**Login screen:** input validation for email and password fields, error handling for invalid or empty values.  
+**Checklist screen:** interaction with task checkboxes, functionality of “Complete All” and “Sort by Name” buttons, logout behaviour. 
 
 # LIST OF TEST CASES: 
-Login screen:
+**Login screen:**
 1. Login with valid email and password.
 2. Login with empty email and empty password.
 3. Login with empty email and valid password.
 4. Login with valid email and empty password.
 5. Login with invalid email format and valid password.
     
-Checklist screen:
+**Checklist screen:**
 1. Verify that task changes state.
 2. Verify that all subtasks are marked as completed after completing a parent task.
 3. Verify that "Sort by Name" button sorts tasks alphabetically.
